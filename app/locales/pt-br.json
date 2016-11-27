@@ -1,0 +1,130 @@
+{
+    "locale" : "pt-br",
+    "page" :
+    [{
+        "default_title" : "MySQL-GenDoc, seu novo gerador de documentação para bancos de dados em MySQL",
+        "default_description" : "MySQL-GenDoc. Seu novo gerador de documentação para bancos de dados em MySQL!",
+        "404_title" : "404, página não encontrada",
+        "404_description" : "MySQL-GenDoc, não encontrado. Seu novo gerador de documentação para bancos de dados em MySQL!",
+        "files_title" : "Veja seus arquivos",
+        "files_description" : "Veja todos os seus arquivos salvos no MySQL-GenDoc!",
+        "writed_title" : "Escreva sua documentação",
+        "writed_description" : "Comece a escrever a documentação para seu banco de dados.",
+        "htmld_title" : "Veja sua documentação" ,
+        "htmld_description" : "Aqui é onde você pode ver todo o esquema do seu banco de dados, com informações e documentação.",
+        "connect_title" : "Conexão com Banco de Dados" ,
+        "connect_description" : "Pronto para conectar ao seu banco de dados e escrever uma documentação? Vamos lá!"
+    }],
+    "view" :
+    [{
+        "welcome" : "Seu novo gerador de documentação para bancos de dados em MySQL!",
+        "notes_title" : "Notas",
+        "notes_description" : "O MySQL-GenDoc não armazena dados da sua conexão com o banco de dados. Apenas usa os dados para obter seu esquema de dados. O esquema do seu banco de dados, com documentação, será salvo na pasta /uploads no formato JSON. Nenhum dado é enviado, sendo apenas local.",
+        "howto_title" : "Como usar?",
+        "howto_description" : "Coloque as informações da sua conexão com o banco de dados acima, siga os passos para fazer sua documentação e esteja apto para exportar a documentação em um arquivo HTML em versão para impressão ou salvar como um PDF.",
+        "needs_title" : "O que você precisa?",
+        "needs_description" : "Seu usuário do MySQL precisa ser capaz de acessar a tabela information_schema. Para obter melhor performance use PHP7 e a última versão do MySQL e Chrome.",
+        "all_title" : "Isso é tudo!",
+        "all_description" : "Você será capaz de documentar tabelas, colunas e chaves como: primary, unique, index e foreign. Eu espero que aprecie esse projeto.",
+        "file_title" : "Seus arquivos salvos",
+        "documentation_title" : "Faça sua documentação",
+        "tips_title" : "Algumas dicas",
+        "dtips_description" : "Um jeito fácil de encontrar o que precisa é utilizar CTRL+F. Você pode buscar facilmente por tabelas, colunas e chaves por seus nomes.",
+        "tips_column" : "Encontre Colunas > Digite: {table} table_name.",
+        "tips_keys" : "Encontre Chaves > Digite: {column} column_name.",
+        "connect_title" : "Conectando com o seu banco de dados",
+        "connect_description" : "Agora, vamos tentar conectar com seu banco de dados e ler todo esquema..."
+    }],
+    "step" :
+    [{
+        "connect_title" : "Conecte",
+        "connect_description" : "Baixe o esquema do banco de dados em JSON.",
+        "file_title" : "Arquivos",
+        "file_description" : "Tenha todos seus arquivos salvos em JSON.",
+        "write_title" : "Escreva",
+        "write_description" : "Abre um esquema de banco de dados e escreva a documentação.",
+        "export_title" : "Exporte",
+        "export_description" : "Imprima a documentação ou salve como PDF."
+    }],
+    "form" :
+    [{
+        "connect" : "Conexão com Banco de Dados",
+        "server_connect" : "Servidor/IP (URL)",
+        "user_connect" : "Usuário",
+        "password_connect" : "Senha",
+        "nopassword_connect" : "Meu banco de dados não usa senha.",
+        "port_connect" : "Porta",
+        "database_connect" : "Nome do Banco de Dados",
+        "server_fill" : "Por favor, entre com um endereço válido.",
+        "user_fill" : "Por favor, escreva um usuário.",
+        "password_fill" : "Por favor, escreva uma senha.",
+        "port_fill" : "Por favor, entre com uma porta válida.",
+        "database_fill" : "Por favor, entre com o nome do banco de dados.",
+        "server_place" : "Por exemplo: 127.0.0.1 ou http://localhost",
+        "user_place" : "Seu usuário MySQL...",
+        "password_place" : "Sua senha do usuário MySQL...",
+        "database_place" : "Nome do seu banco de dados..."
+    }],
+    "button" :
+    [{
+        "connect" : "Conectar",
+        "see_files" : "Veja seus arquivos salvos",
+        "see_databases" : "Veja seus bancos de dados salvos",
+        "save_documentation" : "Salvar documentação",
+        "print" : "Versão limpa para impressão",
+        "see_documentation" : "Veja sua documentação",
+        "write_documentation" : "Escreva sua documentação",
+        "home": "Início",
+        "about": "Sobre",
+        "edit": "Editar documentação",
+        "edit_file": " (editar documentação)",
+        "click_here": "Clique aqui",
+        "tosee": " para ver a versão HTML."
+    }],
+    "info" :
+    [{
+        "default_title" : "Não se preocupe!",
+        "files_title" : "Deseja explorar seus arquivos?",
+        "files_description" : "Clique e esteja pronto para escrever uma documentação.",
+        "redirect" : "Você será redirecionado em 5 segundos..."
+    }],
+    "alert" :
+    [{
+        "default_title" : "Ops... tem algo errado!",
+        "session_title" : "Sua sessão é inválida!",
+        "session_description" : "Desculpe, mas algo errado aconteceu com sua sessão e você não pode acessar esse conteúdo...",
+        "404_title" : "404, página não encontrada!",
+        "404_description" : "Desculpe, mas a página que você solicitou não foi encontrada..."
+    }],
+    "documentation" :
+    [{
+        "name" : "Nome",
+        "description" : "Descrição",
+        "database" : "Banco de Dados",
+        "table" : "Tabela",
+        "column" : "Coluna",
+        "key" : "Chave",
+        "foreign" : "Relação com",
+        "doc_name" : "Nome Contextual",
+        "doc_comm" : "Comentário",
+        "doc_name_form" : "Dê um nome...",
+        "doc_comm_form" : "Escreva um comentário..."
+    }],
+    "process" :
+    [{
+        "adding" : "Adicionando ",
+        "of" : " de ",
+        "tables" : " tabela(as) ao banco de dados ",
+        "columns" : " coluna(s) a tabela ",
+        "keys" : " chave(s) a coluna ",
+        "invalid_file" : "Talvez você esteja tentando acessar um nome de arquivo inválido. Tenha certeza que o arquivo está na pasta /uploads.",
+        "saving_full" : "Salvando sua documentação...",
+        "saving" : "Salvando ",
+        "noconnection" : "Não é possível conectar ao banco de dados: ",
+        "nofields" : "Campos estão incompletos...",
+        "reading" : "Preparando para ler o esquema..",
+        "noquery" : "Query falhou em: ",
+        "done_file" : "Feito! Arquivo salvo em /uploads/",
+        "done" : "Feito..."
+    }]
+}

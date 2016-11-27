@@ -1,0 +1,151 @@
+/*
+Copyright (C) 2016 Caique M Araujo
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : 21/11/2016
+    Author     : Caique M Araujo
+*/
+body
+{ font-size: 1.6em !important; background-color: #FFFFFF; -webkit-print-color-adjust: exact; }
+
+.logo
+{ width: 32px !important; height: 32px !important; margin-right: 5px !important }
+
+h1, h2, h3, h4, h5, h6
+{ font-weight: bold; }
+
+h1
+{ font-size: 2.1em !important; }
+
+h2
+{ font-size: 1.9em !important; }
+
+h3
+{ font-size: 1.7em !important; } 
+
+h4
+{ font-size: 1.5em !important; }
+
+h5, h6
+{ font-size: 1.3em !important; }
+
+label
+{ display: table !important; margin-bottom: 1em !important }
+
+.comment 
+{ padding: 10px 20px; margin: 0 0 20px; font-size: 17.5px; border-left: 5px solid #eee; font-size: 1.1em }
+
+.no-show
+{ display: none !important; }
+
+.main.container 
+{ margin-top: 5em; margin-bottom: 5em; }
+
+.inside.container
+{ margin: 2em 0; }
+
+.ui.segments
+{ padding: 1em; margin: 2em 1em !important; }
+
+.ui.segments>.segment
+{ margin-top: 1em; }
+
+.ui.segment
+{ padding: 2em; font-size: 1.1em }
+
+.ui.input
+{ width: 100%; margin-bottom: 1em; }
+
+.ui.label
+{ margin: .8em !important; vertical-align: bottom !important; }
+
+.ui.label
+{ font-weight: normal; }
+
+.ui.checkbox
+{ display: block; margin: 2em 1em; cursor: pointer }
+
+.ui.checkbox label
+{ cursor: pointer }
+
+.ui.ribbon.label
+{ left: calc(-1.5rem - 1.2em) !important; text-transform: uppercase; }
+
+.ui.segment>.ui.ribbon.label
+{ left: calc(-3.2rem - 1.2em) !important; text-transform: uppercase; }
+
+.ui.tag.label
+{ text-transform: uppercase; }
+
+.ui.table 
+{ font-size: .8em !important; }
+
+.ui.table td
+{ vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6
+{ margin: 15px 0; }
+
+.ui.divider 
+{ margin: 5px 0 5px; }
+
+.ui.label
+{ min-width: 35px; text-align: center; }
+
+.ui.label
+{ margin: 2px 6px !important; }
+
+.ui.tag.label 
+{ margin: 2px 9px !important; }
+
+.line-keys
+{ width: 120px; }
+
+.line-name
+{ width: 35%; }
+
+.ui.list .list>.item .header, .ui.list>.item .header
+{ margin: 0 0 8px; font-size: 1.2em; }
+
+.ui.list .list>.item .header a, .ui.list>.item .header a
+{ border-bottom: 1px solid; }
+
+@media print
+{    
+    * { border-radius: 0 !important; }
+        
+    .ui.segments
+    { margin: 0em 1em !important; }
+        
+    h3
+    { page-break-before:  always; }
+        
+    .ui.segments
+    { border: none; box-shadow: none; }
+                    
+    .ui.table td em
+    { color: #555; }
+    
+    .ui.table
+    { border: none; border-bottom: 1px solid rgba(34,36,38,.1) !important; box-shadow: none; }
+    
+    .ui.table tr td 
+    { border-top: 1px solid rgba(34,36,38,.1) !important; }
+    
+    .ui.table thead th
+    { background: rgba(34,36,38,.1); border: none !important; }
+        
+}

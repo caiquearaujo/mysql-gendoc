@@ -1,0 +1,131 @@
+{
+    "locale" : "en",
+    "page" :
+    [{
+        "default_title" : "MySQL-GenDoc, your newest generator to documentation of your mysql databases",
+        "default_description" : "MySQL-GenDoc. Your newest generator to documentation of your mysql databases!",
+        "404_title" : "404, page not found",
+        "404_description" : "MySQL-GenDoc, not found. Your newest generator to documentation of your mysql databases!",
+        "files_title" : "See your files",
+        "files_description" : "See all your files saved by MySQL-GenDoc!",
+        "writed_title" : "Write your documentation",
+        "writed_description" : "Begin to write a documentation for your database.",
+        "htmld_title" : "See your documentation" ,
+        "htmld_description" : "Here is where you can see all of your database schema information and documentation.",
+        "connect_title" : "Database Connection" ,
+        "connect_description" : "Ready to connect to your database and write a documentation? Let's go!"
+    }],
+    "view" :
+    [{
+        "welcome" : "Your newest generator to documentation of your mysql databases!",
+        "notes_title" : "Notes",
+        "notes_description" : "MySQL-GenDoc doesn't store your database connection data. It only uses the data to get your database schema. Your database schema, with documentation, will be saved in /uploads folder in JSON format. No data is send, it's only local.",
+        "howto_title" : "How to use?",
+        "howto_description" : "Put your database connection informations above, follow the steps to do your documentation and be able to export documentation to printable HTML or save as PDF.",
+        "needs_title" : "What do you need?",
+        "needs_description" : "Your MySQL user needs to be able to access information_schema table. To get better performance use PHP7 and the latest MySQL and Chrome version.",
+        "all_title" : "That's all!",
+        "all_description" : "You will be able to document tables, columns and keys as: primary, unique, index and foreign key. I hope you can appreciate this project.",
+        "file_title" : "Your saved files",
+        "documentation_title" : "Make your documentation",
+        "tips_title" : "Some tips",
+        "dtips_description" : "A easy way to find a information is using CTRL+F. You can easily find for tables, columns and keys by their names.",
+        "tips_column" : "Find Columns > Type: {table} table_name.",
+        "tips_keys" : "Find Keys > Type: {column} column_name.",
+        "connect_title" : "Connecting with your Database",
+        "connect_description" : "Now, we gonna try to connect to your database and read all of your schema..."
+    }],
+    "step" :
+    [{
+        "connect_title" : "Connect",
+        "connect_description" : "Download the database schema to a JSON file.",
+        "file_title" : "Files",
+        "file_description" : "See all your saved files in JSON format.",
+        "write_title" : "Write",
+        "write_description" : "Open the database schema and write a documentation.",
+        "export_title" : "Export",
+        "export_description" : "Print the documentation or save it as PDF."
+    }],
+    "form" :
+    [{
+        "connect" : "Database Connection",
+        "server_connect" : "Server/IP (URL)",
+        "user_connect" : "User",
+        "password_connect" : "Password",
+        "nopassword_connect" : "My database doesn't use a password.",
+        "port_connect" : "Port",
+        "database_connect" : "Database Name",
+        "server_fill" : "Please, enter with a valid Server URL.",
+        "user_fill" : "Please, type a user.",
+        "password_fill" : "Please, type a password.",
+        "port_fill" : "Please, enter with valid port.",
+        "database_fill" : "Please, enter with your database name.",
+        "server_place" : "Such as: 127.0.0.1 or http://localhost",
+        "user_place" : "Your MySQL user...",
+        "password_place" : "Your MySQL user password...",
+        "port_place" : "Please, enter with valid port.",
+        "database_place" : "Your database name..."
+    }],
+    "button" :
+    [{
+        "connect" : "Connect",
+        "see_files" : "See your saved files",
+        "see_databases" : "See your saved databases",
+        "save_documentation" : "Save documentation",
+        "print" : "Clean version to print",
+        "see_documentation" : "See your documentation",
+        "write_documentation" : "Write your documentation",
+        "home": "Home",
+        "about": "About",
+        "edit": "Edit documentation",
+        "edit_file": " (edit documentation)",
+        "click_here": "Click here",
+        "tosee": " to see the HTML version."
+    }],
+    "info" :
+    [{
+        "default_title" : "Don't worry!",
+        "files_title" : "Want to explore your files?",
+        "files_description" : "Click and be ready to write a documentation.",
+        "redirect" : "You will be redirected in 5 seconds..."
+    }],
+    "alert" :
+    [{
+        "default_title" : "Ops... something went wrong!",
+        "session_title" : "Your session is invalid!",
+        "session_description" : "I'm sorry, but something wrong happened with your session and you can't access this content...",
+        "404_title" : "404, page not found!",
+        "404_description" : "I'm sorry, but the page you requested was not found..."
+    }],
+    "documentation" :
+    [{
+        "name" : "Name",
+        "description" : "Description",
+        "database" : "Database",
+        "table" : "Table",
+        "column" : "Column",
+        "key" : "Key",
+        "foreign" : "Foreign with",
+        "doc_name" : "Contextual Name",
+        "doc_comm" : "Comment",
+        "doc_name_form" : "Give a name...",
+        "doc_comm_form" : "Write a comment..."
+    }],
+    "process" :
+    [{
+        "adding" : "Adding ",
+        "of" : " of ",
+        "tables" : " table(s) to database ",
+        "columns" : " column(s) to table ",
+        "keys" : " key(s) to column ",
+        "invalid_file" : "Maybe you're trying to access a invalid file name. Be sure the file is in /uploads folder.",
+        "saving_full" : "Saving your documentation...",
+        "saving" : "Saving ",
+        "noconnection" : "Can't connect to your database: ",
+        "nofields" : "Fields are incomplete...",
+        "reading" : "Preparing to read schema...",
+        "noquery" : "Query failed at: ",
+        "done_file" : "Done! File saved at /uploads/",
+        "done" : "Done..."
+    }]
+}
