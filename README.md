@@ -32,10 +32,10 @@ Put the platform in the root folder, maybe can cause some issues.
 Put all files that are inside **/public** folder in the root folder on server. Put **/app** folder and **mgd-config.php** file one level above your server root folder. Your files structure will be as below:
 
 * /app
-    * (todos arquivos e pastas de /app)
+    * (all files and foldes of /app)
 * mdg-config.php
 * /www (pasta raiz)
-    * (todos arquivos e pastas de /public)
+    * (all files and foldes of /public)
 
 To access, see *Configuring the Plataform*.
 
